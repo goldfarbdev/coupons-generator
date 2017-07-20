@@ -1,0 +1,548 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Staples Inc.</Author>
+  <LastAuthor>Staples Inc.</LastAuthor>
+  <Created>2012-04-16T16:03:14Z</Created>
+  <LastSaved>2012-07-13T13:55:40Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12280</WindowHeight>
+  <WindowWidth>37120</WindowWidth>
+  <WindowTopX>160</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Currency"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="CouponTemplate.txt">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="77"
+   ss:DefaultRowHeight="20">
+   <Column ss:StyleID="s62" ss:Width="318"/>
+   <Column ss:StyleID="s62" ss:Width="126"/>
+   <Column ss:StyleID="s62" ss:Width="243"/>
+   <Column ss:StyleID="s62" ss:Width="115"/>
+   <Column ss:StyleID="s63" ss:Width="530"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="243"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="301"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="168"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="472"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="116"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="156"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="327"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="284"/>
+   <Column ss:StyleID="s62" ss:Width="204"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">Channel</Data></Cell>
+    <Cell><Data ss:Type="String">Exp date</Data></Cell>
+    <Cell><Data ss:Type="String">Offer</Data></Cell>
+    <Cell><Data ss:Type="String">W coup</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Item name</Data></Cell>
+    <Cell><Data ss:Type="String">Item number</Data></Cell>
+    <Cell><Data ss:Type="String">disclaimer 1</Data></Cell>
+    <Cell><Data ss:Type="String">disclaimer 2</Data></Cell>
+    <Cell><Data ss:Type="String">disclaimer 3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">in store coupon</Data></Cell>
+    <Cell><Data ss:Type="String">online phone coupon</Data></Cell>
+    <Cell><Data ss:Type="String">S_number</Data></Cell>
+    <Cell><Data ss:Type="String">Disclaimer</Data></Cell>
+    <Cell><Data ss:Type="String">NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s67">
+    <Cell><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Expires 7/21/2012</Data></Cell>
+    <Cell><Data ss:Type="String">$10 off</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s69"><Data ss:Type="String">your purchase of any 2 cases of  Staples® 8 1/2&quot; x 11&quot; Multipurpose Paper case paper.</Data></Cell>
+    <Cell><Data ss:Type="String">Item no. 513096.</Data></Cell>
+    <Cell><Data ss:Type="String">No limit.</Data></Cell>
+    <Cell><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"><Data ss:Type="Number">58271</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell><Data ss:Type="String">S0461895 (show 2 cases stacked)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Valid on Staples® 8 1/2&quot; x 11&quot; Multipurpose Paper case paper only, item no. 513096. No limit. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement Cards or Convenience Cards.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell><Data ss:Type="String">$10 off</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">your Dell ink purchase of $40 or more with this coupon.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">35658</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">92767</Data></Cell>
+    <Cell><Data ss:Type="String">pick up from 4/17 coupon corner</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to Dell® ink only. Minimum Dell ink purchase requirement of $40 must be met with purchases to which no other coupon or instant savings offer applies. Tax and shipping not included in calculating the minimum purchase. Not valid on Dell toner. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement Cards or Convenience Cards.</Data></Cell>
+    <Cell><Data ss:Type="String">add a &quot;Find your Dell ink&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Expires 7/28/2012</Data></Cell>
+    <Cell><Data ss:Type="String">$180 in savings </Data></Cell>
+    <Cell><Data ss:Type="String">with coupon</Data></Cell>
+    <Cell><Data ss:Type="String">on the Gateway SX2370 -US10P Desktop PC.</Data></Cell>
+    <Cell><Data ss:Type="String">Item no. 502277.</Data></Cell>
+    <Cell><Data ss:Type="String">Not available in all stores.</Data></Cell>
+    <Cell><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell><Data ss:Type="String">$579.99 - $130 instant savings - $50 with this coupon = $399.99.</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">28473</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">67322</Data></Cell>
+    <Cell><Data ss:Type="String">PICK UP COUPON FROM 5/29</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to the Gateway SX2370-US10P Desktop PC only. Item no. 502277. Not available in all stores. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement Cards or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">with coupon.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Toshiba Canvio 3.0 1TB Portable USB 3.0 External Hard Drive. </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Item no. 420670.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">13505</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">50666</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">pick up the silver image from dotcom</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to the Toshiba Canvio 3.0 1TB Portable USB 3.0 External Hard Drive only. Item no. 420670. Limit one per customer. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">with coupon.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Western Digital My Passport 320GB USB 3.0 Portable Hard Drive.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Item no. 722956.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">92096</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">43691</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">S0475057</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to the Western Digital My Passport 320GB USB 3.0 Portable Hard Drive only. Item no. 722956. Limit one per customer. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">24.99</Data></Cell>
+    <Cell><Data ss:Type="String">with coupon.</Data></Cell>
+    <Cell><Data ss:Type="String">Staples Relay 32GB USB Flash Drive.</Data></Cell>
+    <Cell><Data ss:Type="String">Item no. 331297.</Data></Cell>
+    <Cell><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">12613</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">52812</Data></Cell>
+    <Cell><Data ss:Type="String">S0381411</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to the Staples Relay 32GB USB Flash Drive only. Item no. 331297. Limit one per customer. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">14.99</Data></Cell>
+    <Cell><Data ss:Type="String">with coupon.</Data></Cell>
+    <Cell><Data ss:Type="String">Staples Relay 16GB USB Flash Drive</Data></Cell>
+    <Cell><Data ss:Type="String">Item nos. 860831.</Data></Cell>
+    <Cell><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">78216</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">55340</Data></Cell>
+    <Cell><Data ss:Type="String">S0381411</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to the Staples Relay 16GB USB Flash Drive only. Item nos. 860831. Limit one per customer. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">7.99</Data></Cell>
+    <Cell><Data ss:Type="String">with coupon.</Data></Cell>
+    <Cell><Data ss:Type="String">PNY Connect Attache 8GB USB Flash Drives.</Data></Cell>
+    <Cell><Data ss:Type="String">Item nos. 420591, 420594, 420595.</Data></Cell>
+    <Cell><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">96394</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">63869</Data></Cell>
+    <Cell><Data ss:Type="String">Show all 3: S0465669, S0465668, S0465667</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to PNY Connect Attache 8GB USB Flash Drives only. Item nos. 420591, 420594, 420595. Limit one per customer. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">$2 off</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">PNY Premium 8GB and 16GB SDHC Flash Memory Card</Data></Cell>
+    <Cell><Data ss:Type="String">Item no. 727945, 757980. </Data></Cell>
+    <Cell><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">64432</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">48459</Data></Cell>
+    <Cell><Data ss:Type="String">S0245759</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to PNY Premium 8GB SDHC Flash Memory Card only. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement Cards or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell><Data ss:Type="String">Valid in store, online or by phone.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">$10 off</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">all M-Edge Nook and Kindle Touch Cases.</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="Number">26707</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">88649</Data></Cell>
+    <Cell><Data ss:Type="String">S0432953</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to all M-Edge eReader cases only. Limit one per customer. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">add a &quot;Shop now&quot; CTA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s67">
+    <Cell><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell><Data ss:Type="String">$10 off</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s72"><Data ss:Type="String">all chairmats.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s72"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"><Data ss:Type="Number">25103</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pick up image from 6/27 coupon corner.</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to chairmats only. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="19" ss:StyleID="s72">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">20% off </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">all Canon cameras.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"><Data ss:Type="String">Excludes clearance and SLR cameras.</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"><Data ss:Type="Number">75310</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell><Data ss:Type="String">Show both: S0478320</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to Canon cameras only. Excludes clearance and SLR cameras. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="19" ss:StyleID="s72">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">50% off </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">all Binding and Laminating Supplies.</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Excludes clearance.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"><Data ss:Type="Number">59788</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell><Data ss:Type="String">pick up image from 5/20 circular</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to binding and laminating supplies only. Excludes clearance. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">50% off</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">all Avery full sheet labels.</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"><Data ss:Type="Number">63242</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">S0181564</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to Avery full sheet labels only. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s72">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">50% off</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">all Avery Business Builder Labels.</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Excludes clearance.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"><Data ss:Type="Number">22477</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">S0479653</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to Business Builders only. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s81">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expires 7/14/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">50% off</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">all Bankers Box boxes.</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Excludes clearance.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Limit one per customer.</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">31962</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">S0404113</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to Bankers Box® boxes only. Excludes clearance. Limit one per customer. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Valid in store only.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Expires 7/21/2012</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">50% off</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s72"><Data ss:Type="String">all Epson Photo and Specialty Paper.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"><Data ss:Type="String">No limit.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">While supplies last.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"><Data ss:Type="Number">54152</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Show all 3: S0398098, S0025535, S0136173</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Discount applies to  Canon &amp; Epson Photo and Specialty Paper only. No limit. While supplies last. Each item purchased can only be discounted by one coupon, applied by cashier in order received and prior to tax. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples® Procurement or Convenience Cards.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Zoom>150</Zoom>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <LeftColumnVisible>9</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>13</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,260 @@
+<script type="text/javascript" src="http://www.staples.com/sbdpas/20150213055236/js/jquery-1.7.1.min.js"></script>
+<div class="z_promobanner">
+	<div class="z_promobanner_creative">
+		<div class="z_promobanner_offer">
+			<div class="z_promobanner_details">
+				<table cellpadding="0" cellspacing="0" height="48" border="0" style="margin-left: 0px; height: 44px; margin-top: 4px;">
+					<tr>
+						<td class="z_big" style="color: #4d4d4d; font-size:44px; line-height: 44px;font-weight: bold;padding: 0 10px 0 0;">50%</td>
+						<td class="z_big" style="color: #4d4d4d; font-size:32px; line-height: 32px;font-weight: bold;padding: 0 10px 0 0;">off</td>
+						<td style="color: #4d4d4d; font-size:16px; line-height: 20px;font-weight: 100;padding: 0 10px 0 0;">all Moleskine planners.</td>
+					<!--	<td style="color: #4d4d4d; font-size:12px; line-height: 16px;font-weight: 100;" valign="middle"><a href="http://www.staples.com/Moleskine/cat_BI860123" style="color: #0092db">See all Moleskine products</a><br /></td> -->
+					</tr>
+				</table>
+			</div>
+			<div class="z_promobanner_specifics">
+				<div style="color: #4d4d4d; font-size:12px; line-height: 16px;font-weight: 100;margin-top: 10px;">Coupon code: <b>45094</b></div>
+				<div style="color: #4d4d4d; font-size:12px; line-height: 16px;font-weight: 100;">Expires 3/14/15.</div>
+			</div>
+		</div>
+		<div class="z_promobanner_disclaimer_copy">Valid online at staples.com® or by phone at 1-800-333-3330 only. Not valid in store. Excludes Daily Deals. Limit one coupon per customer, nontransferable. May not be combined with any other coupon. No cash/credit back. Not valid on prior purchases. Expires 3/14/15.</div>
+	</div>
+	
+	<div class="z_promobanner_actions">
+		<div class="z_promobanner_cta">
+			<a href="#" id="z_coupon_banner">Add coupon to cart</a>
+		</div>
+		<div class="z_promobanner_disclaimer">
+			<a href="#" class="z_hide_view_disclaimer" style="color: #0092db">See disclaimer</a>
+		</div>
+	
+		
+	</div>
+</div>
+
+<style type="text/css">
+
+.z_promobanner_disclaimer_copy {
+	display: none;
+	overflow: hidden;
+	width: 540px;
+}
+
+.z_promobanner {
+	width: 700px;
+	height: 48px;
+	border-top: #999 solid 1px;
+	border-bottom: #999 solid 1px;
+	font-size: 11px;
+	font-family: arial;
+	line-height: 13px;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.z_promobanner_creative {
+	float: left;
+	height: 48px;
+	width: 540px;
+}
+
+.z_promobanner_offer {
+	width: 540px;
+	height: 48px;
+	float: left;
+	
+}
+
+.z_promobanner_details {
+	width: 390px;
+	height: 48px;
+	float: left;
+}
+.z_promobanner_specifics {
+	width: 150px;
+	height: 48px;
+	float: left;
+	
+}
+
+.z_promobanner_actions {
+	width: 155px;
+	height: 48px;
+	float: left;
+	overflow: hidden;
+	margin-left: 5px;
+}
+
+.z_promobanner_cta {
+	float: none;
+	clear: both;
+
+	height: 24px;
+	margin-top:10px;
+}
+
+.z_promobanner_cta a {
+	background-color: #cc0000;
+	color: #fff;
+	font-family: HelveticaNeueLTStd-Roman, helvetica, arial, sans-serif; 
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 14px;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.z_promobanner_cta a:hover {
+	background-color: #8C0000;
+}
+
+.z_promobanner_disclaimer {
+	float: none;
+	clear: both;
+}
+</style>
+
+<div id="z_overlay" style="display: none;"><div id="z_overlay_content" style="position:absolute;z-index: 99997;left:50%;top:140px;width:250px;height:250px;margin-left:230px;"><img src="/sbd/cre/products/140810/39526/images/39526_250x250.png" usemap="#z_overlaymap" /><map name="z_overlaymap"><area coords="220,8,242,35" href="#" id="z_close_overlay" shape="rectangle"></area></map></div><div id="z_overlay_takeover" style="width:100%;height:100%;z-index:99996;top: 0;left:0;background-color: #111;opacity: 0.3;filter: alpha(opacity=30);"></div></div>
+ 
+<!-- JS for Coupon ATC -->
+<script type="text/javascript">
+$(document).on('click', 'a.z_hide_view_disclaimer', function (e) {
+
+	e.preventDefault();
+
+	$this = $(this).closest('.z_promobanner');
+
+	$link = $(this);
+
+	$disclaimer = $this.find('.z_promobanner_disclaimer_copy');
+
+	$offer = $this.find("z_promobanner_offer");
+
+	$disclaimer.toggleClass('.z_promobanner_overlay');
+
+	if ($link.text().match(/^See/)) {
+		$link.text($link.text().replace(/^See/, 'Hide'));
+	} else {
+		$link.text($link.text().replace(/^Hide/, 'See'));
+	}
+
+
+	if($disclaimer.css("display") == "none"){
+		$disclaimer.css({"display":"block"});
+		$height = $('.z_promobanner_disclaimer_copy').innerHeight();
+		if($height <= 48){
+			$height = "48px";
+		}else {
+			$height = $('.z_promobanner_disclaimer_copy').innerHeight();
+		}
+		$this.css({"height":$height});
+		$this.find('.z_promobanner_offer').css({"display":"none"});
+/*		$this.find('.z_promobanner_specifics').css({"display":"none"}); */
+	}else{
+		$disclaimer.css({"display":"none"});
+		$this.css({"height":"48px"});
+		$this.find('.z_promobanner_offer').css({"display":"block"})
+	/*	$this.find('.z_promobanner_specifics').css({"display":"block"}); */
+	}
+});
+
+
+	var z_couponCode = "45094";
+	var z_couponUrlSlug = "cat_CL214677";
+	var z_couponAtcUrl = "/office/supplies/StaplesAddToCart?storeId=10001&ocf=Y&promoName=" + z_couponCode + "&URL=" + z_couponUrlSlug + "?z_coupon=" + z_couponCode;
+	var z_couponNotAddedBannerSrc = "/sbd/cre/products/150215/44192/images/44192_700x50.jpg";
+	var z_addedCouponOverlayBannerSrc = "/sbd/cre/coupons/images/39948_250x250.jpg";
+	var z_couponAddedBannerSrc = "/sbd/cre/products/150215/44192/images/44192_redeemed_700x50.jpg";
+	var z_couponExpires = "Sun, 15 Mar 2015 04:00:01";
+	
+	function z_getQueryVariable(z_variable)
+	{
+	   var query = window.location.search.substring(1);
+	   var vars = query.split("&");
+	   for (var i=0;i<vars.length;i++) {
+	           var pair = vars[i].split("=");
+	           if(pair[0] == z_variable){return pair[1];}
+	   }
+	   return(false);
+	}
+	
+	
+	function z_getCookie(z_cname) {
+	    var name = z_cname + "=";
+	    var ca = document.cookie.split(';');
+	    for(var i=0; i<ca.length; i++) {
+	        var c = ca[i];
+	        while (c.charAt(0)==' ') c = c.substring(1);
+	        if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+	    }
+	    return "";
+	}
+	
+	function z_isOnDestination() {
+		var z_isOnDest = "no";
+		if(window.location.pathname.match(/cat_CL214677/i)){
+			z_isOnDest = "yes";
+		}
+		return z_isOnDest;	
+	}
+	
+	var z_height = $(document).height();
+	var z_isCouponAdded = z_getQueryVariable("z_coupon");
+	var z_couponExists = z_getCookie("z_coupon_" + z_couponCode);
+	
+	var z_dest = z_isOnDestination();
+	//var z_dest = "yes";
+	
+	
+	if(!z_isCouponAdded  && !z_couponExists) {
+		if(z_dest == "yes") {
+			$("#z_coupon_banner").on("click", function(e){
+				jQuery.ajax({
+			        url: z_couponAtcUrl,
+			        dataType: "html",
+			        success: function(response) {
+						$('.z_promobanner_cta').html('Coupon has been added to cart');
+						$('body').prepend($("#z_overlay"));
+						$("#z_overlay").css({"display":"block"});
+						$('#z_overlay, #z_overlay_takeover').css({'height':$(document).height() + 'px'});
+						$('#z_overlay').css({"position":"absolute","z-index":"99999","width":"100%","top":"0", "left":"0","overflow":"hidden"});
+						$('#z_overlay_takeover').css({'zIndex':'99996'});
+						$('#z_overlay').delay(6000).fadeOut( "slow", function() {});
+						document.cookie="z_coupon_" + z_couponCode + "=" + z_couponCode + "; expires=" + z_couponExpires + "; path=/";
+						$("#z_overlay_takeover, #z_close_overlay").on("click",function(e){
+							$("#z_overlay").remove();
+							e.preventDefault();
+						});
+			        },
+			    });
+			    $('.z_promobanner_cta').html('Adding coupon to your cart.');
+			    e.preventDefault();
+			});
+		}else {
+		//	$(".z_promobanner").html('<a href="' + z_couponAtcUrl + '"><img src="' + z_couponNotAddedBannerSrc + '" border="0" /></a>');
+		}
+	}else if(z_isCouponAdded  && !z_couponExists) {
+		$('.z_promobanner_cta').html('Coupon has been added to cart');
+		$('body').prepend($("#z_overlay"));
+		$("#z_overlay").css({"display":"block"});
+		$('#z_overlay, #z_overlay_takeover').css({'height':$(document).height() + 'px'});
+		$('#z_overlay').css({"position":"absolute","z-index":"99999","width":"100%","top":"0", "left":"0","overflow":"hidden"});
+		$('#z_overlay_takeover').css({'zIndex':'99996'});
+		$('#z_overlay').delay(6000).fadeOut( "slow", function() {});
+		document.cookie="z_coupon_" + z_couponCode + "=" + z_couponCode + "; expires=" + z_couponExpires + "; path=/";
+		$("#z_overlay_takeover, #z_close_overlay").on("click",function(e){
+			$("#z_overlay").remove();
+			e.preventDefault();
+		});
+	}else if(z_couponExists){
+		if(z_dest == "yes"){
+			$(".z_promobanner_cta").html('Coupon has been added to cart');
+		} else {
+			$(".z_promobanner_cta").html('<a href="/' + z_couponUrlSlug + '">SHOP NOW</a>');
+		}
+	}else {
+		
+	}
+	
+</script>

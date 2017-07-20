@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+    <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+    <style>
+        button[disabled]{
+            opacity: .6;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="row">
+    <div class="container">
+        <form class="row" id="couponGenerator" method="post" action="coupons-generator.php">
+            <h1>Coupon Generator</h1>
+
+            <h2><label>Do you have 1 or 2 coupon batches?</label></h2>
+            <div class="input-group">
+                <p>1 <input id="oneCoupon" type="radio" checked="checked" name="couponCount" value="1"/>
+                   2 <input id="couponTwo" type="radio" name="couponCount" value="2"/>
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6" id="coupon1">
+                    <h2>Coupons #1</h2>
+                    <p><label for="startDate1">Select Start Date</label></p>
+                    <p><input id="startDate1" type="text" name="date1"></p>
+                    <p><label>Paste your coupon spreadsheet here</label></p>
+                    <p><textarea name="coupons1"></textarea></p>
+                </div>
+
+                <div class="col-md-6" id="coupon2">
+                    <h2>Coupons #2</h2>
+                    <p><label for="startDate2">Select Start Date</label></p>
+                    <p><input id="startDate2" type="text" name="date2"></p>
+                    <p><label>Paste your coupon spreadsheet here</label></p>
+                    <p><textarea name="coupons2"></textarea></p>
+                </div>
+                <div class="col-md-12">
+                    <span id="submitContainer"><button disabled="false" type="submit">Generate</button></span>
+                    <button type="reset">Clear</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+"coupons": [  {
+                    "image": "s1042950",
+                    "offer": "1&cent;",
+                    "itemName": "Staples&reg; 8.5\" x 11\" multipurpose paper, ream, after easy rebate and with coupon.",
+                    "couponType": "In-store",
+                    "expiryDate": "06/17/17",
+                    "couponCode": "86214",
+                    "disclaimer": "Valid in Staples&reg; U.S. stores only. Valid on item no. 513099 only. While supplies last. Limit one coupon per customer, nontransferable. Each item purchased can only be discounted by one coupon, applied by cashier in the order received. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples&reg; Procurement or Convenience Cards. Plus tax where applicable. Coupon value applied pre-tax. Expires 6/17/17."
+                },
+  {
+                    "image": "s0938025",
+                    "offer": "$5 ",
+                    "itemName": "Staples&reg; 8.5\" x 11\" multipurpose paper, 5-ream case, after easy rebate and with coupon.",
+                    "couponType": "In-store",
+                    "expiryDate": "06/17/17",
+                    "couponCode": "96738",
+                    "disclaimer": "Valid in Staples&reg; U.S. stores only. Valid on item no. 1147484 only. While supplies last. Limit one coupon per customer, nontransferable. Each item purchased can only be discounted by one coupon, applied by cashier in the order received. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples&reg; Procurement or Convenience Cards. Plus tax where applicable. Coupon value applied pre-tax. Expires 6/17/17."
+                },
+  {
+                    "image": "s1044286",
+                    "offer": "$26.99 ",
+                    "itemName": "Hammermill&reg; Copy Plus&reg; 8.5\" x 11\" copy paper, case, after instant savings and with coupon.",
+                    "couponType": "In-store",
+                    "expiryDate": "06/17/17",
+                    "couponCode": "35158",
+                    "disclaimer": "Valid in Staples&reg; U.S. stores only. Valid on item no. 122374 only. While supplies last. Limit one coupon per customer, nontransferable. Each item purchased can only be discounted by one coupon, applied by cashier in the order received. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples&reg; Procurement or Convenience Cards. Plus tax where applicable. Coupon value applied pre-tax. Expires 6/17/17."
+                },
+  {
+                    "image": "s1089125",
+                    "offer": "$100 off",
+                    "itemName": "when you pre-order two regular-priced Amazon Echo Show devices.",
+                    "couponType": "online",
+                    "expiryDate": "06/28/17",
+                    "couponCode": "59191",
+                        "skuNumber": "2720172",
+                    "disclaimer": "Valid online at staples.com&reg; or by phone at 1-800-333-3330 only. Discount applies to regular-priced items only. Cannot be combined with any other discount, coupon or business exclusive pricing. Excludes Daily Deals and Auto Restock orders. While supplies last. Limit one coupon per customer, nontransferable. Offer can be redeemed two times in one transaction only. Minimum purchase requirement must be met with purchases to which no other coupon or instant savings offer applies. No cash/credit back. Not valid on prior purchases. Coupon value applied pre-tax. Expires 6/28/17."
+                },
+  {
+                    "image": "s0939173",
+                    "offer": "Free",
+                    "itemName": "shredding services, up to 2 lb.",
+                    "couponType": "In-store",
+                    "expiryDate": "06/17/17",
+                    "couponCode": "43940",
+                    "disclaimer": "Valid in Staples&reg; U.S. stores only. Discount applies to regular-priced services only. Cannot be combined with any other discount, coupon or business exclusive pricing. Limit one coupon per customer, nontransferable. Each service purchased can only be discounted by one coupon, applied by cashier in the order received. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples&reg; Procurement or Convenience Cards. Coupon value applied pre-tax. Expires 6/17/17."
+                },
+  {
+                    "image": "s0851769",
+                    "offer": "10% off",
+                    "itemName": "UPS&reg; shipping services",
+                    "couponType": "In-store",
+                    "expiryDate": "07/01/17",
+                    "couponCode": "28221",
+                    "disclaimer": "Valid in Staples&reg; U.S. stores only. Discount applies to regular-priced services only. Cannot be combined with any other discount, coupon or business exclusive pricing. Excludes postage stamps. Limit one coupon per customer, nontransferable. Each service purchased can only be discounted by one coupon, applied by cashier in the order received. Coupon not valid if purchased or sold and must be surrendered. No cash/credit back. Not valid on prior purchases or purchases made with Staples&reg; Procurement or Convenience Cards. Coupon value applied pre-tax. Expires 7/1/17."
+                },
+  {
+                    "image": "s0408899",
+                    "offer": "Free ",
+                    "itemName": "Dymo&reg; 45013 permanent self-adhesive label tape when you buy a Dymo MobileLabeler.",
+                    "couponType": "online",
+                    "expiryDate": "06/24/17",
+                    "couponCode": "81622",
+                        "skuNumber": "2300511",
+                    "disclaimer": "Valid online at staples.com&reg; or by phone at 1-800-333-3330 only. Valid on item nos. 79511 and 2300511 only. Excludes Daily Deals and Auto Restock orders. While supplies last. Limit one coupon per customer, nontransferable. Minimum purchase requirement must be met with purchases to which no other coupon or instant savings offer applies. No cash/credit back. Not valid on prior purchases. Plus tax where applicable. Coupon value applied pre-tax. Expires 6/24/17."
+                },
+],
